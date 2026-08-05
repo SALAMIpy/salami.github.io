@@ -17,7 +17,7 @@ The solar wind measurements in particular have been combined with longstanding m
 
 ## The SALAMI Dataset
 
-The SALAMI dataset takes _all_ of the above data and arranges into an AI/ML-ready format. Heavily inspired by the success of this approach as applied to SDO mission data in particular [Galvez, et al. 2019]https://iopscience.iop.org/article/10.3847/1538-4365/ab1005), the SALAMI database consists of multi-channel space weather observations arranged into an AI/ML ready format. Notable aspects of SALAMI are as follows:
+The SALAMI dataset takes _all_ of the above data and arranges into an AI/ML-ready format. Heavily inspired by the success of this approach as applied to SDO mission data in particular [Galvez, et al. 2019](https://iopscience.iop.org/article/10.3847/1538-4365/ab1005), the SALAMI database consists of multi-channel space weather observations arranged into an AI/ML ready format. Notable aspects of SALAMI are as follows:
 1. SALAMI data is focused on geomagnetic storms. All data are aggregated into samples, with each sample covering a historical storm period.
 2. Storms are labeled by intensity, and associated with metadata related to storm duration and timing of storm phases.
 3. SALAMI provides utilities for cross-referencing storms with solar flares catalogues in [NASA CCMC's DONKI Database](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://kauai.ccmc.gsfc.nasa.gov/DONKI/&ved=2ahUKEwi95dmNxOOSAxXByckDHaI2EKkQFnoECBwQAQ&usg=AOvVaw0hRCtF7HddEn0WyOcEsjbK). Combined with tools for downloading SDO/AIA Level 1 data, users can develop ML workflows to specifically investigate precursors to geomagnetic events.
